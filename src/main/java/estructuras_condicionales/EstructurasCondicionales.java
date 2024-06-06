@@ -1,4 +1,5 @@
-package com.lbo.estructurascondicionales;
+package estructuras_condicionales;
+
 import java.util.Scanner;
 
 /**
@@ -6,7 +7,6 @@ import java.util.Scanner;
  * @author amarianjel
  */
 public class EstructurasCondicionales {
-
     public static void main(String[] args) {
        // README: 1 Calculo de cuadernos
         /*Scanner scanner = new Scanner(System.in);

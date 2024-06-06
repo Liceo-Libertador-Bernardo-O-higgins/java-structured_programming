@@ -1,4 +1,4 @@
-package bucles;
+package repetitivos;
 
 import java.util.Scanner;
 
@@ -78,6 +78,41 @@ public class BucleWhile {
         System.out.println("La suma total es: " + suma);
 
         scanner.close();
+        
+        
+        /* README: Construya un programa JAVA que permita determinar cuántos 
+        alumnos tienen promedio entre los rangos: A[1.0 - 2.9]; B[3.0 – 3.9];
+        C[4.0 – 5.5]; D[5.6 – 7.0]*/
+        /*Scanner scanner = new Scanner(System.in);
+        int countA = 0; // Rango [1.0 - 2.9]
+        int countB = 0; // Rango [3.0 - 3.9]
+        int countC = 0; // Rango [4.0 - 5.5]
+        int countD = 0; // Rango [5.6 - 7.0]
 
+        System.out.println("Ingrese el número de alumnos:");
+        int numAlumnos = scanner.nextInt();
+        int i = 0;
+
+        while (i < numAlumnos) {
+            System.out.println("Ingrese el promedio del alumno " + (i + 1) + ":");
+            double promedio = scanner.nextDouble();
+            
+            if (promedio >= 1.0 && promedio <= 2.9) {
+                countA++;
+            } else if (promedio >= 3.0 && promedio <= 3.9) {
+                countB++;
+            } else if (promedio >= 4.0 && promedio <= 5.5) {
+                countC++;
+            } else if (promedio >= 5.6 && promedio <= 7.0) {
+                countD++;
+            }
+            
+            i++;
+        }
+
+        System.out.println("Número de alumnos en el rango A[1.0 - 2.9]: " + countA);
+        System.out.println("Número de alumnos en el rango B[3.0 - 3.9]: " + countB);
+        System.out.println("Número de alumnos en el rango C[4.0 - 5.5]: " + countC);
+        System.out.println("Número de alumnos en el rango D[5.6 - 7.0]: " + countD);*/
     }
 }
