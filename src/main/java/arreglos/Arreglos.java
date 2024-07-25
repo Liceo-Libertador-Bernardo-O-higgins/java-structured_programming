@@ -5,7 +5,36 @@ package arreglos;
  * @author amarianjel
  */
 public class Arreglos {
-        public static void main(String[] args){
+    public static void main(String[] args){
+        //Formas de crear un arreglo
+        int []miArregloNumerico = { 3, 5, 3}; //Tamaño 3
+        char []miArregloLetras = { 'c','a'};    //Tamaño 2
+        String []miArregloPalabras = { "El pelo rubio", "Me gusta comer", "Vicentito", "Los al cuadrado"};
+        
+        //Variables
+        int num1 = 0;
+        int num2 = 10;
+        int num3 = 4;
+        char letra1 = 'a';
+        char letra2 = 'b';
+        char letra3 = 'c';
+        String palabra1 = "Matias";
+        String palabra2 = "Vicentito";
+        String palabra3 = "Angular";
+        
+        int []arrNum = new int[3];
+        Character []arrLetra = new Character[2];
+        String []arrPalabra = new String[3];
+            
+            
+            
+            
+            
+            
+            
+            
+            
+         
         
         //README: 1 Sumar elementos de un arreglo
         int[] numeros = {1, 2, 3, 4, 5};
