@@ -26,15 +26,56 @@ public class Arreglos {
         Character []arrLetra = new Character[2];
         String []arrPalabra = new String[3];
             
+        arrPalabra[0] = palabra2;
+        arrPalabra[1] = palabra3;
+        arrPalabra[2] = palabra1;
+        
+        int indice = arrPalabra.length - 1;
+        // Mostrar elementos
+        for(int i = 0; i < arrPalabra.length; i++){
+            //System.out.println("Indice: " + i + "   Valor del arreglo: " + arrPalabra[indice--]);
+
+        }
+        
+        // Clase de sumas
+        int []myarray1 = {3,4,6};
+        int []myarray2 = {5,7,6};
+        int []sumaArreglos = new int[3];
+
+        // MathRandom
+        int numeroRandom = (int)(Math.random() * 9);
+        
+        System.out.println("Este es el Random: " + numeroRandom);
+        
+        // Suma Arreglos
+        sumaArreglos[0] = myarray1[0] + myarray2[0];
+        //System.out.println(" Las suma es: " + sumaArreglos[0]);
+        
+        sumaArreglos[1] = myarray1[1] + myarray2[1];
+        //System.out.println(" Las suma es: " + sumaArreglos[1]);
+        
+        sumaArreglos[2] = myarray1[2] + myarray2[2];
+        //System.out.println(" Las suma es: " + sumaArreglos[2]);
             
+        
+        for(int i = 0; i < sumaArreglos.length; i++){
+            sumaArreglos[i] = myarray1[i] + myarray2[i];
             
-            
-            
-            
+            if( sumaArreglos[i] <= 8){
+                sumaArreglos[i] += 3; 
+            }
+            System.out.println("La suma es: "  + sumaArreglos[i]);
+        }
             
             
             
          
+        
+        
+        
+        
+        
+        
         
         //README: 1 Sumar elementos de un arreglo
         int[] numeros = {1, 2, 3, 4, 5};
@@ -42,9 +83,10 @@ public class Arreglos {
 
         for (int i = 0; i < numeros.length; i++) {
             suma += numeros[i];
+            
         }
 
-        System.out.println("La suma de los elementos es: " + suma);
+        //System.out.println("La suma de los elementos es: " + suma);
         
         
         // README: 2 Encontrar el mayor de un elemento
