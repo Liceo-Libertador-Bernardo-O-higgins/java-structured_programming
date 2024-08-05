@@ -26,6 +26,7 @@ public class Calculadora {
                 + "\n 4-. Dividir"
                 + "\n Si ingresa cualquer otro numero saldrá de la calculadora");
             opcion = leer.nextInt();
+            
             System.out.println("Ingrese el numero 1");
             numero1 = leer.nextFloat();
             System.out.println("Ingrese el numero 2");
