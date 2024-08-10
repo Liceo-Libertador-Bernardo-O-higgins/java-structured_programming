@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 public class UnirArreglos {
     public static void main(String []args){
-        /*int[] arreglo1 = {1, 2, 3};
+        /*  int[] arreglo1 = {1, 2, 3};
         int[] arreglo2 = {4, 5, 6};
         int[] arregloUnido = new int[arreglo1.length + arreglo2.length];
         
