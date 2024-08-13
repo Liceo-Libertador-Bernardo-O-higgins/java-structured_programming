@@ -7,7 +7,7 @@ package arreglos;
 public class Arreglos {
     public static void main(String[] args){
         //Formas de crear un arreglo
-        int []miArregloNumerico = { 3, 5, 3}; //Tamaño 3
+        /*int []miArregloNumerico = { 3, 5, 3}; //Tamaño 3
         char []miArregloLetras = { 'c','a'};    //Tamaño 2
         String []miArregloPalabras = { "El pelo rubio", "Me gusta comer", "Vicentito", "Los al cuadrado"};
         
@@ -65,7 +65,7 @@ public class Arreglos {
                 sumaArreglos[i] += 3; 
             }
             System.out.println("La suma es: "  + sumaArreglos[i]);
-        }
+        }*/
             
             
             
@@ -78,13 +78,13 @@ public class Arreglos {
         
         
         //README: 1 Sumar elementos de un arreglo
-        int[] numeros = {1, 2, 3, 4, 5};
+        /*int[] numeros = {1, 2, 3, 4, 5};
         int suma = 0;
 
         for (int i = 0; i < numeros.length; i++) {
             suma += numeros[i];
             
-        }
+        }*/
 
         //System.out.println("La suma de los elementos es: " + suma);
         
@@ -208,6 +208,8 @@ public class Arreglos {
         numeros[0] = ultimo;
 
         System.out.println("Arreglo rotado: " + java.util.Arrays.toString(numeros));*/
-        
+
+
+
     }
 }

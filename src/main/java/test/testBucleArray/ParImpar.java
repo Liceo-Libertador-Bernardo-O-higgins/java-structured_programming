@@ -1,4 +1,4 @@
-package testBucleArray;
+package test.testBucleArray;
 
 public class ParImpar {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class ParImpar {
                 // PAR
                 System.out.println("PAR");
                 arreglo1[i - 1] = numero;
-                arreglo2[i] = numero + 2;
+                arreglo1[i] = numero + 2;
                 System.out.println("Arreglo 1: " + arreglo1[i - 1] + ", " + arreglo1[i]);
             }else{
                 // IMPAR

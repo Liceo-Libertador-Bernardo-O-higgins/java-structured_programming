@@ -1,4 +1,4 @@
-package testBucleArray;
+package test.testBucleArray;
 
 public class SumaTresArreglos {
     public static void main(String[] args){
