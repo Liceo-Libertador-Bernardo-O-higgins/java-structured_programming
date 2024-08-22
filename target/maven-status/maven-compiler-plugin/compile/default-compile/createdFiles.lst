@@ -1,10 +1,14 @@
-estructuras_condicionales/EstructurasCondicionales.class
 repetitivos/BucleFor.class
+estructuras_condicionales/EstructurasCondicionales.class
 arreglos/Arreglos.class
 repetitivos/BucleDoWhile.class
+test/testBucleArray/ParImpar.class
+test/testBucleArray/SumaTresArreglos.class
 repetitivos/ProblemasCombinados.class
 arreglos/BDDConsulta.class
 arreglos/Calculadora.class
+arreglos/UnirArreglos.class
 funciones/FuncionesSinRetorno.class
-estructuras_condicionales/ControlesAlternativos.class
+test/testBucleArray/PalabraEnColumna.class
 repetitivos/BucleWhile.class
+estructuras_condicionales/ControlesAlternativos.class

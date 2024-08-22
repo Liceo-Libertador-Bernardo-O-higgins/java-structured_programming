@@ -112,11 +112,17 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+# Sistema
 alias archUpdate="sudo pacman -Syu"
+# Grub
 alias grubUpdate="sudo grub-mkconfig -o /boot/grub/grub.cfg
 "
+alias grubConfigure="sudo nano /etc/default/grub"
 alias grubMostrar="sudo /usr/sbin/plymouth-set-default-theme"
 alias grubList="/usr/share/plymouth/themes"
+# Direcciones
+alias teacherFile="cd /home/amarianjel/Documentos/profesor"
+alias zshChange=""
 alias subl='/var/lib/flatpak/app/com.sublimetext.three/x86_64/stable/e4f96d2c2287553f22865a6b3a26ad931b7eeb81dde8646c15c3a4e580713a2e/files/extra/sublime_text/sublime_text'          # Para Sublime Text
 #alias pseint=''  # Ajusta la ruta a tu ejecutable de Pseint
 #alias netbeans='/ruta/al/ejecutable/netbeans'  # Ajusta la ruta a tu ejecutable de NetBeans
