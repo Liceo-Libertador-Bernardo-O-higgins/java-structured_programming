@@ -52,9 +52,50 @@ public class FuncionesSinRetorno {
     // README: Funciones con Argunmento
     // Función n5
     private static void sumarEdades(int edadJorge, int edadProfe){
+        edadJorge += 50;
         int suma = edadJorge + edadProfe;
         System.out.println("La suma de las edades es: " + suma);
     }
     
     // TODO: Mostrar los nombres y las letras Función n6
+    
+    /*Función para imprimir un saludo:
+
+    Crear una función llamada saludar() que imprima "¡Hola, bienvenido al curso!".
+
+Función para mostrar el nombre:
+
+    Crear una función llamada mostrarNombre(String nombre) que reciba un nombre como parámetro e imprima "Tu nombre es: " seguido del nombre.
+
+Función para sumar dos números:
+
+    Crear una función llamada sumar(int a, int b) que reciba dos números enteros y muestre la suma.
+
+Función para mostrar un número par o impar:
+
+    Crear una función llamada verificarParImpar(int numero) que determine si el número es par o impar y lo imprima.
+
+Función para mostrar los primeros 10 números:
+
+    Crear una función llamada imprimirNumeros() que imprima los números del 1 al 10.
+
+Función para convertir grados Celsius a Fahrenheit:
+
+    Crear una función llamada convertirACelsius(double fahrenheit) que reciba un valor en Fahrenheit y lo convierta a Celsius, mostrando el resultado.
+
+Función para imprimir un mensaje personalizado:
+
+    Crear una función llamada imprimirMensaje(String mensaje) que reciba un mensaje como parámetro e imprima el mensaje.
+
+Función para contar de 1 a un número dado:
+
+    Crear una función llamada contarHasta(int limite) que reciba un número entero y cuente desde 1 hasta ese número, imprimiéndolos.
+
+Función para mostrar los números pares hasta un límite:
+
+    Crear una función llamada imprimirParesHasta(int limite) que imprima los números pares desde 1 hasta el número dado.
+
+Función para calcular el área de un círculo:
+
+    Crear una función llamada calcularAreaCirculo(double radio) que reciba el radio de un círculo e imprima el área.*/
 }
