@@ -12,18 +12,10 @@
 
     6-. Función para convertir grados Celsius a Fahrenheit: Crear una función llamada convertirACelsius(double fahrenheit) que reciba un valor en Fahrenheit y lo convierta a Celsius, mostrando el resultado.
 
-    7-. Función para imprimir un mensaje personalizado:
+    7-. Función para imprimir un mensaje personalizado: Crear una función llamada imprimirMensaje(String mensaje) que reciba un mensaje como parámetro e imprima el mensaje.
 
-    Crear una función llamada imprimirMensaje(String mensaje) que reciba un mensaje como parámetro e imprima el mensaje.
+    8-. Función para contar de 1 a un número dado: Crear una función llamada contarHasta(int limite) que reciba un número entero y cuente desde 1 hasta ese número, imprimiéndolos.
 
-Función para contar de 1 a un número dado:
+    9-. Función para mostrar los números pares hasta un límite: Crear una función llamada imprimirParesHasta(int limite) que imprima los números pares desde 1 hasta el número dado.
 
-    Crear una función llamada contarHasta(int limite) que reciba un número entero y cuente desde 1 hasta ese número, imprimiéndolos.
-
-Función para mostrar los números pares hasta un límite:
-
-    Crear una función llamada imprimirParesHasta(int limite) que imprima los números pares desde 1 hasta el número dado.
-
-Función para calcular el área de un círculo:
-
-    Crear una función llamada calcularAreaCirculo(double radio) que reciba el radio de un círculo e imprima el área.*/
+    10-. Función para calcular el área de un círculo: Crear una función llamada calcularAreaCirculo(double radio) que reciba el radio de un círculo e imprima el área.*/
