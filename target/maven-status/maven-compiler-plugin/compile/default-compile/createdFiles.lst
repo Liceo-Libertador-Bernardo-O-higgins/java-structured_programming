@@ -12,6 +12,7 @@ funciones/SinRetorno/FuncionesSinRetorno.class
 arreglos/BDDConsulta.class
 arreglos/Calculadora.class
 arreglos/UnirArreglos.class
+funciones/ConRetorno/TareaFuncionesConRetorno.class
 test/testBucleArray/PalabraEnColumna.class
 repetitivos/BucleWhile.class
 estructuras_condicionales/ControlesAlternativos.class
